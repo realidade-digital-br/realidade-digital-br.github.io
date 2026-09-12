@@ -1,0 +1,100 @@
+{
+ "story_id": "RD-20260908-streamer-perde-dedo-em-grade-do-rock-in-rio",
+ "slug": "streamer-perde-dedo-em-grade-do-rock-in-rio",
+ "headline": "Streamer perde parte do dedo em grade do Rock in Rio e diz que se arrepende",
+ "summary": "Adalton Rodrigues Júnior, o Lodk, transmitia ao vivo quando teve o anelar amputado ao passar por uma grade nos arredores da Cidade do Rock. Ele passou por cirurgia, recebeu alta e falou ao g1.",
+ "category": "Internet",
+ "topics": [
+  "Rock in Rio",
+  "Streamers"
+ ],
+ "people": [
+  "Lodk"
+ ],
+ "entities": [],
+ "status": "PUBLISHED",
+ "created_at": "2026-09-08T14:09:16+00:00",
+ "first_published_at": "2026-09-11T23:30:45.557850+00:00",
+ "updated_at": "2026-09-11T23:30:45.557850+00:00",
+ "last_verified_at": "2026-09-11T23:30:45.557850+00:00",
+ "body": "O streamer Adalton Rodrigues Júnior, conhecido como Lodk, perdeu parte do dedo anelar da mão direita durante uma transmissão ao vivo nos arredores da Cidade do Rock, na madrugada de sexta-feira (4) para sábado (5).\n\nNa gravação da live, um amigo que o acompanhava percebe a lesão e avisa o influenciador. O dedo amputado foi recolhido no local, e os dois procuraram uma saída para seguir ao hospital.\n\nLodk passou por cirurgia no Hospital Municipal Lourenço Jorge, na Barra da Tijuca, e recebeu alta na segunda-feira (7). Ele conversou com o g1 no mesmo dia.\n\nO influenciador produz lives IRL, formato em que transmite em tempo real os passeios pelas ruas do Rio e de outras cidades.",
+ "sources": [
+  {
+   "source_id": "g1-video",
+   "source_type": "VEICULO",
+   "source_name": "g1 / Globo",
+   "source_url": "https://g1.globo.com/pop-arte/musica/rock-in-rio/noticia/2026/09/08/video-mostra-amigo-achando-dedo-de-streamer-preso-em-grade-no-rock-in-rio.ghtml",
+   "published_at": "2026-09-08T16:38:45+00:00",
+   "accessed_at": "2026-09-08T14:09:16+00:00",
+   "authority_level": "ALTA",
+   "primaria": false,
+   "referencia_de_arquivo": ""
+  },
+  {
+   "source_id": "g1-entrevista",
+   "source_type": "ENTREVISTA",
+   "source_name": "g1 / Globo — entrevista com Lodk",
+   "source_url": "https://g1.globo.com/pop-arte/musica/rock-in-rio/noticia/2026/09/08/preferia-ter-todos-os-dedos-streamer-se-arrepende-apos-perder-o-anelar-em-grade-do-rock-in-rio.ghtml",
+   "published_at": "2026-09-08T11:58:44+00:00",
+   "accessed_at": "2026-09-08T12:19:46+00:00",
+   "authority_level": "ALTA",
+   "primaria": true,
+   "referencia_de_arquivo": ""
+  }
+ ],
+ "claims": [
+  {
+   "claim_id": "c1",
+   "texto": "O streamer Adalton Rodrigues Júnior, conhecido como Lodk, perdeu parte do dedo anelar da mão direita em uma grade nos arredores da Cidade do Rock, na madrugada de sexta (4) para sábado (5).",
+   "estado": "FACT",
+   "source_ids": [
+    "g1-video",
+    "g1-entrevista"
+   ],
+   "nota": ""
+  },
+  {
+   "claim_id": "c2",
+   "texto": "Ele passou por cirurgia no Hospital Municipal Lourenço Jorge, na Barra da Tijuca, e recebeu alta na segunda-feira (7).",
+   "estado": "FACT",
+   "source_ids": [
+    "g1-entrevista"
+   ],
+   "nota": ""
+  },
+  {
+   "claim_id": "c3",
+   "texto": "“Sim, eu me arrependo. Mas estou bem, tranquilo. Como eu sempre falo, transformo meus desastres em piada. Mas preferia ter ainda todos os dedos.”",
+   "estado": "DECLARATION",
+   "source_ids": [
+    "g1-entrevista"
+   ],
+   "nota": "Declaração de Lodk ao g1. O fato é que ele disse isso."
+  },
+  {
+   "claim_id": "c4",
+   "texto": "Se houve falha de segurança do festival, como o streamer afirmou durante a transmissão, não há apuração oficial publicada até o momento.",
+   "estado": "UNCERTAINTY",
+   "source_ids": [],
+   "nota": "Nenhum órgão ou laudo foi localizado; permanece em aberto."
+  }
+ ],
+ "corrections": [],
+ "updates": [],
+ "tiktok_derivatives": [
+  {
+   "plataforma": "TikTok",
+   "post_id": "7682925751426878740",
+   "url": "https://www.tiktok.com/@realidadedigitalbr/video/7682925751426878740",
+   "publicado_em": "2026-09-07T22:36:49+00:00",
+   "legenda": "",
+   "revisao_necessaria": false
+  }
+ ],
+ "instagram_derivatives": [],
+ "youtube_shorts": [],
+ "youtube_longform": [],
+ "analytics_references": [],
+ "monetization_references": [],
+ "retraction_note": ""
+}

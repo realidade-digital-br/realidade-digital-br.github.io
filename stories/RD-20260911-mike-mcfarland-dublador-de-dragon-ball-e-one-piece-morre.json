@@ -1,0 +1,101 @@
+{
+ "story_id": "RD-20260911-mike-mcfarland-dublador-de-dragon-ball-e-one-piece-morre",
+ "slug": "mike-mcfarland-dublador-de-dragon-ball-e-one-piece-morre",
+ "headline": "Mike McFarland, dublador de Dragon Ball Z e One Piece, morre aos 56 anos",
+ "summary": "Voz de Mestre Kame em Dragon Ball Z e de Buggy em One Piece nas versões em inglês, o dublador morreu após um diagnóstico de glioblastoma, um câncer no cérebro.",
+ "category": "Entretenimento",
+ "topics": [
+  "Anime",
+  "Dublagem"
+ ],
+ "people": [
+  "Mike McFarland"
+ ],
+ "entities": [],
+ "status": "PUBLISHED",
+ "created_at": "2026-09-12T00:02:01.536584+00:00",
+ "first_published_at": "2026-09-12T00:02:01.536584+00:00",
+ "updated_at": "2026-09-12T00:02:01.536584+00:00",
+ "last_verified_at": "2026-09-12T00:02:01.536584+00:00",
+ "body": "O ator e dublador Mike McFarland morreu aos 56 anos. Ele era a voz de Mestre Kame em Dragon Ball Z e de Buggy, o Palhaço, em One Piece nas versões em inglês das animações.\n\nSegundo o Metrópoles, ele enfrentava problemas de saúde desde janeiro de 2025 e recebeu o diagnóstico de glioblastoma — um tipo de câncer no cérebro — após cerca de um ano com sintomas sem causa identificada. Chegou a passar por uma cirurgia de emergência para a retirada de um tumor cerebral.\n\nA Revista Monet registrou a comoção de fãs de anime após o anúncio da morte.",
+ "sources": [
+  {
+   "source_id": "monet",
+   "source_type": "VEICULO",
+   "source_name": "Revista Monet / Globo",
+   "source_url": "https://revistamonet.globo.com/noticias/noticia/2026/09/dublador-iconico-de-one-piece-e-dragon-ball-",
+   "published_at": "2026-09-11T14:08:55+00:00",
+   "accessed_at": "2026-09-11T18:30:10+00:00",
+   "authority_level": "ALTA",
+   "primaria": false,
+   "referencia_de_arquivo": ""
+  },
+  {
+   "source_id": "metropoles",
+   "source_type": "VEICULO",
+   "source_name": "Metrópoles",
+   "source_url": "https://www.metropoles.com/celebridades/mike-mcfarland-dublador-de-dragon-ball-z-e-one-piece-morre-a",
+   "published_at": "2026-09-11T17:13:12+00:00",
+   "accessed_at": "2026-09-11T18:30:10+00:00",
+   "authority_level": "ALTA",
+   "primaria": false,
+   "referencia_de_arquivo": ""
+  }
+ ],
+ "claims": [
+  {
+   "claim_id": "c1",
+   "texto": "Mike McFarland morreu aos 56 anos.",
+   "estado": "FACT",
+   "source_ids": [
+    "monet",
+    "metropoles"
+   ],
+   "nota": ""
+  },
+  {
+   "claim_id": "c2",
+   "texto": "Ele dublava Mestre Kame em Dragon Ball Z e Buggy em One Piece nas versões em inglês.",
+   "estado": "FACT",
+   "source_ids": [
+    "monet",
+    "metropoles"
+   ],
+   "nota": ""
+  },
+  {
+   "claim_id": "c3",
+   "texto": "Segundo o Metrópoles, ele recebeu diagnóstico de glioblastoma e passou por cirurgia de emergência.",
+   "estado": "DECLARATION",
+   "source_ids": [
+    "metropoles"
+   ],
+   "nota": "Relato do veículo sobre o histórico de saúde."
+  },
+  {
+   "claim_id": "c4",
+   "texto": "A causa imediata da morte não foi detalhada pelas fontes consultadas.",
+   "estado": "UNCERTAINTY",
+   "source_ids": [],
+   "nota": "Nenhuma das duas matérias declara a causa imediata."
+  }
+ ],
+ "corrections": [],
+ "updates": [],
+ "tiktok_derivatives": [
+  {
+   "plataforma": "TikTok",
+   "post_id": "7684349903656586517",
+   "url": "https://www.tiktok.com/@realidadedigitalbr/video/7684349903656586517",
+   "publicado_em": "2026-09-11T18:41:15+00:00",
+   "legenda": "",
+   "revisao_necessaria": false
+  }
+ ],
+ "instagram_derivatives": [],
+ "youtube_shorts": [],
+ "youtube_longform": [],
+ "analytics_references": [],
+ "monetization_references": [],
+ "retraction_note": ""
+}

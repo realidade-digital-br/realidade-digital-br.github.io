@@ -1,0 +1,93 @@
+{
+ "story_id": "RD-20260911-fas-de-k-pop-madrugam-em-fila-no-rock-in-rio",
+ "slug": "fas-de-k-pop-madrugam-em-fila-no-rock-in-rio",
+ "headline": "Fãs de k-pop madrugam na fila do Rock in Rio e disputam a grade no quinto dia",
+ "summary": "Antes das 6h, mais de 200 pessoas já esperavam em uma das entradas da Cidade do Rock. Nem frio nem chuva dispersaram o público do dia dedicado ao k-pop no Palco Mundo.",
+ "category": "Internet",
+ "topics": [
+  "Rock in Rio",
+  "K-pop",
+  "Fandom"
+ ],
+ "people": [],
+ "entities": [
+  "Stray Kids",
+  "Rock in Rio"
+ ],
+ "status": "PUBLISHED",
+ "created_at": "2026-09-12T00:02:01.536584+00:00",
+ "first_published_at": "2026-09-12T00:02:01.536584+00:00",
+ "updated_at": "2026-09-12T00:02:01.536584+00:00",
+ "last_verified_at": "2026-09-12T00:02:01.536584+00:00",
+ "body": "A Cidade do Rock registrou filas antes da abertura dos portões para o início da segunda semana do Rock in Rio, na sexta-feira (11). Antes das 6h, mais de 200 pessoas aguardavam em uma das entradas do festival.\n\nNem o frio nem a chuva desanimaram o público que queria acompanhar as atrações do dia, dedicado ao k-pop no Palco Mundo. Entre capas de chuva e guarda-chuvas, os fãs esperavam a abertura.\n\nCom os portões abertos, os fãs do Stray Kids disputaram lugar colado à grade. Houve choro, gritos e correria, segundo o Gshow, que registrou fãs pintando os braços para organizar a fila.",
+ "sources": [
+  {
+   "source_id": "g1-fila",
+   "source_type": "VEICULO",
+   "source_name": "g1 / Globo",
+   "source_url": "https://g1.globo.com/pop-arte/musica/rock-in-rio/noticia/2026/09/11/dia-do-k-pop-no-rock-in-rio-leva",
+   "published_at": "2026-09-11T09:20:18+00:00",
+   "accessed_at": "2026-09-11T12:10:07+00:00",
+   "authority_level": "ALTA",
+   "primaria": false,
+   "referencia_de_arquivo": ""
+  },
+  {
+   "source_id": "gshow-grade",
+   "source_type": "VEICULO",
+   "source_name": "Gshow / Globo",
+   "source_url": "https://gshow.globo.com/festivais/rock-in-rio/2026/noticia/choro-gritos-e-correria-fas-do-straykids-",
+   "published_at": "2026-09-11T17:13:54+00:00",
+   "accessed_at": "2026-09-11T18:20:17+00:00",
+   "authority_level": "ALTA",
+   "primaria": false,
+   "referencia_de_arquivo": ""
+  }
+ ],
+ "claims": [
+  {
+   "claim_id": "c1",
+   "texto": "Antes das 6h da sexta-feira (11), mais de 200 pessoas aguardavam em uma das entradas da Cidade do Rock.",
+   "estado": "FACT",
+   "source_ids": [
+    "g1-fila"
+   ],
+   "nota": ""
+  },
+  {
+   "claim_id": "c2",
+   "texto": "O dia foi dedicado ao k-pop no Palco Mundo, com Stray Kids como atração principal.",
+   "estado": "FACT",
+   "source_ids": [
+    "g1-fila",
+    "gshow-grade"
+   ],
+   "nota": ""
+  },
+  {
+   "claim_id": "c3",
+   "texto": "Houve choro, gritos e correria na disputa por lugar na grade, com fãs pintando os braços para organizar a fila.",
+   "estado": "FACT",
+   "source_ids": [
+    "gshow-grade"
+   ],
+   "nota": ""
+  },
+  {
+   "claim_id": "c4",
+   "texto": "O número total de público do dia não foi divulgado pelas fontes consultadas.",
+   "estado": "UNCERTAINTY",
+   "source_ids": [],
+   "nota": ""
+  }
+ ],
+ "corrections": [],
+ "updates": [],
+ "tiktok_derivatives": [],
+ "instagram_derivatives": [],
+ "youtube_shorts": [],
+ "youtube_longform": [],
+ "analytics_references": [],
+ "monetization_references": [],
+ "retraction_note": ""
+}

@@ -1,0 +1,109 @@
+{
+ "story_id": "RD-20260909-bruna-biancardi-gravida-da-terceira-filha-aparece-no-rio",
+ "slug": "bruna-biancardi-gravida-da-terceira-filha-aparece-no-rio",
+ "headline": "Grávida da terceira filha, Bruna Biancardi aparece no Rio e depois no Rock in Rio",
+ "summary": "A influenciadora mostrou a barriga durante viagem ao Rio em 9 de setembro e, dois dias depois, apareceu no quinto dia do Rock in Rio.",
+ "category": "Celebridades",
+ "topics": [
+  "Rock in Rio"
+ ],
+ "people": [
+  "Bruna Biancardi"
+ ],
+ "entities": [],
+ "status": "UPDATED",
+ "created_at": "2026-09-09T18:30:05+00:00",
+ "first_published_at": "2026-09-12T00:02:01.536584+00:00",
+ "updated_at": "2026-09-12T00:02:01.536584+00:00",
+ "last_verified_at": "2026-09-12T00:02:01.536584+00:00",
+ "body": "Bruna Biancardi, de 32 anos, mostrou a barriga de grávida nas redes sociais na quarta-feira (9), durante viagem profissional ao Rio de Janeiro. Ela está à espera da terceira filha com o jogador Neymar.\n\nNa sexta-feira (11), a influenciadora marcou presença no quinto dia do Rock in Rio 2026, sem Neymar, e posou para os fotógrafos na Área VIP da Cidade do Rock. Usou um look todo preto, com uma calça brilhante e uma camisa de botão aberta na área da barriga.",
+ "sources": [
+  {
+   "source_id": "quem-rio",
+   "source_type": "VEICULO",
+   "source_name": "Revista Quem / Globo",
+   "source_url": "https://revistaquem.globo.com/noticias/noticia/2026/09/bruna-biancardi-surge-com-barriga-de-gravida.",
+   "published_at": "2026-09-09T20:58:48+00:00",
+   "accessed_at": "2026-09-09T18:30:05+00:00",
+   "authority_level": "ALTA",
+   "primaria": false,
+   "referencia_de_arquivo": ""
+  },
+  {
+   "source_id": "gshow-rir",
+   "source_type": "VEICULO",
+   "source_name": "Gshow / Globo",
+   "source_url": "https://gshow.globo.com/festivais/rock-in-rio/2026/noticia/bianca-biancardi-esbanja-barrigao-em-dia-",
+   "published_at": "2026-09-11T23:06:18+00:00",
+   "accessed_at": "2026-09-11T23:30:20+00:00",
+   "authority_level": "ALTA",
+   "primaria": false,
+   "referencia_de_arquivo": ""
+  },
+  {
+   "source_id": "quem-rir",
+   "source_type": "VEICULO",
+   "source_name": "Revista Quem / Globo",
+   "source_url": "https://revistaquem.globo.com/eventos/rock-in-rio/noticia/2026/09/com-barrigao-a-mostra-bruna-bianca",
+   "published_at": "2026-09-11T23:07:17+00:00",
+   "accessed_at": "2026-09-11T23:30:19+00:00",
+   "authority_level": "ALTA",
+   "primaria": false,
+   "referencia_de_arquivo": ""
+  }
+ ],
+ "claims": [
+  {
+   "claim_id": "c1",
+   "texto": "Bruna Biancardi está grávida da terceira filha com Neymar.",
+   "estado": "FACT",
+   "source_ids": [
+    "quem-rio",
+    "quem-rir"
+   ],
+   "nota": ""
+  },
+  {
+   "claim_id": "c2",
+   "texto": "Em 9 de setembro ela mostrou a barriga nas redes sociais durante viagem ao Rio de Janeiro.",
+   "estado": "FACT",
+   "source_ids": [
+    "quem-rio"
+   ],
+   "nota": ""
+  },
+  {
+   "claim_id": "c3",
+   "texto": "Em 11 de setembro ela esteve no quinto dia do Rock in Rio, sem Neymar, e posou na Área VIP.",
+   "estado": "FACT",
+   "source_ids": [
+    "gshow-rir",
+    "quem-rir"
+   ],
+   "nota": ""
+  },
+  {
+   "claim_id": "c4",
+   "texto": "A Revista Quem informa que a filha se chamará Mariah, nome que teria sido divulgado por Neymar.",
+   "estado": "DECLARATION",
+   "source_ids": [
+    "quem-rir"
+   ],
+   "nota": "O veículo atribui a divulgação do nome a Neymar; a RD não confirmou o registro de forma independente."
+  }
+ ],
+ "corrections": [],
+ "updates": [
+  {
+   "atualizado_em": "2026-09-12T00:02:01.536584+00:00",
+   "resumo": "Dois dias depois da viagem ao Rio, a influenciadora apareceu no quinto dia do Rock in Rio. Duas fontes novas acrescentadas."
+  }
+ ],
+ "tiktok_derivatives": [],
+ "instagram_derivatives": [],
+ "youtube_shorts": [],
+ "youtube_longform": [],
+ "analytics_references": [],
+ "monetization_references": [],
+ "retraction_note": ""
+}

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://realidade-digital-br.github.io/sitemap.xml

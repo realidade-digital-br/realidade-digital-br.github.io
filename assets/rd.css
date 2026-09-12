@@ -1,0 +1,134 @@
+/* Realidade Digital Br — sistema visual.
+   Mobile-first. Sem framework: o site inteiro e HTML estatico, e um
+   framework de CSS custaria mais bytes que todo o conteudo da pagina.
+   Cores da marca, fonte canonica: app/social/media/channel_graphics.py */
+:root{
+  /* Cores da arte aprovada pelo Fundador em 2026-09-12, AMOSTRADAS do
+     arquivo master — nao escolhidas por mim. O azul e o das letras, o
+     amarelo e o do fundo da peca. O verde #00B000 continua sendo a cor
+     do FECHO DE VIDEO e nao foi tocado: e producao ao vivo no TikTok. */
+  --azul:#006AB9; --azul-escuro:#01508c; --amarelo:#FED102;
+  --verde:#006AB9; --verde-claro:#0171BD;
+  --tinta:#0A0C10; --papel:#ffffff; --papel-2:#f4f6f8;
+  --texto:#14181f; --texto-2:#525c6b; --linha:#e2e6eb;
+  --urgente:#c81e1e; --corrigido:#8a5a00; --retratado:#6b2020;
+  --medida:34rem;
+}
+@media (prefers-color-scheme:dark){
+  :root{--papel:#0A0C10; --papel-2:#141820; --texto:#eef1f5;
+        --texto-2:#9aa5b4; --linha:#252c38;}
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--papel);color:var(--texto);
+  font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+  font-synthesis-weight:none}
+img{max-width:100%;height:auto}
+a{color:inherit}
+.pular{position:absolute;left:-9999px}
+.pular:focus{position:fixed;left:1rem;top:1rem;z-index:99;background:var(--verde);
+  color:#fff;padding:.6rem 1rem;border-radius:6px}
+:focus-visible{outline:3px solid var(--verde);outline-offset:2px}
+
+.topo{border-bottom:1px solid var(--linha);background:var(--papel);
+  position:sticky;top:0;z-index:10}
+.faixa{max-width:60rem;margin:0 auto;padding:.75rem 1rem;display:flex;
+  flex-wrap:wrap;gap:.5rem 1rem;align-items:baseline}
+.marca{font-weight:800;letter-spacing:-.02em;text-decoration:none;
+  font-size:1.15rem;display:inline-flex;align-items:center;gap:.5rem}
+.marca-logo{width:36px;height:36px;border-radius:7px;display:block;flex:0 0 auto}
+.marca-a{color:var(--texto)} .marca-b{color:var(--verde);margin-left:.2em}
+.nav{display:flex;flex-wrap:wrap;gap:.9rem;font-size:.9rem}
+.nav a{color:var(--texto-2);text-decoration:none}
+.nav a:hover,.nav a:focus{color:var(--verde)}
+
+.envelope{max-width:60rem;margin:0 auto;padding:1.5rem 1rem 3rem}
+.secao{font-size:1.05rem;text-transform:uppercase;letter-spacing:.08em;
+  color:var(--texto-2);border-top:2px solid var(--verde);padding-top:.5rem;
+  margin:2.5rem 0 1rem}
+.secao a{text-decoration:none}
+.chapeu{margin:0 0 .3rem;font-size:.78rem;font-weight:700;color:var(--verde);
+  text-transform:uppercase;letter-spacing:.07em}
+.carimbo,.miudo{color:var(--texto-2);font-size:.85rem}
+
+.lead{border-bottom:1px solid var(--linha);padding-bottom:1.5rem}
+.lead-titulo{font-size:1.9rem;line-height:1.2;letter-spacing:-.02em;margin:.2rem 0}
+.lead-titulo a{text-decoration:none}
+.lead-titulo a:hover{color:var(--verde)}
+.lead-resumo{font-size:1.05rem;color:var(--texto-2);max-width:var(--medida)}
+
+.grade{display:grid;gap:1.25rem;grid-template-columns:1fr}
+@media(min-width:44rem){.grade{grid-template-columns:1fr 1fr}
+  .lead-titulo{font-size:2.6rem}}
+@media(min-width:64rem){.grade{grid-template-columns:repeat(3,1fr)}}
+.cartao{border-bottom:1px solid var(--linha);padding-bottom:1rem}
+.cartao-titulo{font-size:1.05rem;line-height:1.35;margin:.1rem 0 .4rem}
+.cartao-titulo a{text-decoration:none}
+.cartao-titulo a:hover{color:var(--verde)}
+.cartao-resumo{color:var(--texto-2);font-size:.92rem;margin:.3rem 0}
+.cartao-retratado{opacity:.72}
+
+.selo{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.06em;
+  text-transform:uppercase;padding:.15rem .45rem;border-radius:3px;margin:.2rem 0}
+.selo-corrigido{background:#fdf0d5;color:var(--corrigido)}
+.selo-retratado{background:#f7dcdc;color:var(--retratado)}
+
+.materia{max-width:var(--medida);margin:0 auto}
+.trilha{font-size:.82rem;color:var(--texto-2);margin-bottom:1rem}
+.materia-titulo{font-size:1.75rem;line-height:1.22;letter-spacing:-.02em;margin:.2rem 0}
+@media(min-width:44rem){.materia-titulo{font-size:2.25rem}}
+.materia-resumo{font-size:1.08rem;color:var(--texto-2)}
+.carimbos{display:flex;flex-wrap:wrap;gap:.25rem 1.25rem;font-size:.85rem;
+  color:var(--texto-2);border-top:1px solid var(--linha);
+  border-bottom:1px solid var(--linha);padding:.6rem 0;margin:1.25rem 0}
+.carimbos p{margin:0}
+.corpo p{margin:0 0 1.1rem}
+.corpo{font-size:1.05rem}
+
+.aviso{border-left:4px solid var(--corrigido);background:var(--papel-2);
+  padding:.9rem 1rem;margin:1.5rem 0;border-radius:0 6px 6px 0}
+.aviso h2{margin:0 0 .4rem;font-size:1rem}
+.aviso-retratado{border-left-color:var(--retratado)}
+.correcoes{margin:0;padding-left:1.1rem}
+.correcoes li{margin-bottom:.6rem}
+.correcoes-log{list-style:none;padding:0}
+.correcoes-log li{border-bottom:1px solid var(--linha);padding-bottom:1rem;
+  margin-bottom:1.25rem}
+
+.apuracao,.fontes,.derivativos{margin-top:2.5rem}
+.apuracao h2,.fontes h2,.derivativos h2{font-size:1.1rem;border-top:2px solid var(--verde);
+  padding-top:.5rem}
+.alegacoes{list-style:none;padding:0;margin:1rem 0 0}
+.alegacao{border-left:3px solid var(--linha);padding:.1rem 0 .1rem .9rem;
+  margin-bottom:1.25rem}
+.alegacao-texto{margin:.2rem 0}
+/* A cor reforca, nunca carrega sozinha a informacao: o rotulo e texto. */
+.estado-fact{border-left-color:var(--verde)}
+.estado-declaration{border-left-color:#2b6cb0}
+.estado-rumor{border-left-color:var(--corrigido)}
+.estado-uncertainty{border-left-color:var(--texto-2)}
+.rotulo{margin:0;font-size:.72rem;font-weight:700;letter-spacing:.06em;
+  text-transform:uppercase;color:var(--texto-2)}
+.fontes ol{padding-left:1.1rem}
+.fontes li{margin-bottom:.5rem}
+
+.hub-lista{list-style:none;padding:0;max-width:var(--medida)}
+.hub-item{display:block;border:1px solid var(--linha);border-radius:10px;
+  padding:.9rem 1rem;margin-bottom:.7rem;text-decoration:none}
+.hub-item:hover{border-color:var(--verde)}
+.hub-nome{display:block;font-weight:700}
+.hub-desc{display:block;color:var(--texto-2);font-size:.88rem}
+.botao{display:inline-block;background:var(--verde);color:#fff;text-decoration:none;
+  padding:.6rem 1.1rem;border-radius:8px;font-weight:600}
+
+.institucional{max-width:var(--medida);margin:0 auto}
+.institucional h2{font-size:1.15rem;margin-top:2rem}
+.lista-descricao{color:var(--texto-2);max-width:var(--medida)}
+
+.rodape{border-top:1px solid var(--linha);background:var(--papel-2);
+  padding:2rem 1rem;text-align:center}
+.rodape nav{display:flex;flex-wrap:wrap;gap:.5rem 1.1rem;justify-content:center;
+  font-size:.88rem;margin:.75rem 0}
+.rodape a{color:var(--texto-2)}
+.tagline{color:var(--verde);font-weight:600;margin:0}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
